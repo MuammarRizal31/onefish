@@ -1,0 +1,2 @@
+self.addEventListener("install",(function(e){console.log("installing service worker")})),self.addEventListener("activate",(function(e){console.log("service worker activated")})),self.addEventListener("fetch",(function(e){console.log(e.request),e.respondWith(fetch(e.request))}));
+//# sourceMappingURL=sw.bundle.js.map
